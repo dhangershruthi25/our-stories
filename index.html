@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Story</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="app">
+
+        <!-- =================================
+             PAGE 1 — OPENING
+        ================================== -->
+
+        <section id="opening-screen" class="screen">
+
+            <div class="cursor-glow"></div>
+
+            <div class="blob blob-one"></div>
+            <div class="blob blob-two"></div>
+            <div class="blob blob-three"></div>
+
+            <div class="particles">
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+                <span>✦</span>
+                <span>✧</span>
+            </div>
+
+            <div class="opening-content">
+
+                <p class="top-text">
+                    A LITTLE SOMETHING FOR YOU
+                </p>
+
+                <div class="small-line"></div>
+
+                <h1>
+                    Hey
+                    <span>Bangaram</span>
+                </h1>
+
+                <p class="sub-text">
+                    I made a little world<br>
+                    just for you.
+                </p>
+
+                <button id="start-button">
+                    <span>Let's go</span>
+                    <span class="arrow">→</span>
+                </button>
+
+                <p class="hint">
+                    tap to begin
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             PAGE 2 — DATE REVEAL
+        ================================== -->
+
+        <section id="date-screen" class="screen">
+
+            <div class="date-glow"></div>
+
+            <div class="date-particles">
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+                <span>✦</span>
+                <span>✧</span>
+            </div>
+
+            <div class="date-content">
+
+                <p class="date-top">
+                    SOMEWHERE IN TIME
+                </p>
+
+                <div class="date-line"></div>
+
+                <p class="date-question">
+                    It all started on...
+                </p>
+
+                <h2>
+                    16
+                    <span>•</span>
+                    09
+                    <span>•</span>
+                    2026
+                </h2>
+
+                <p class="date-bottom">
+                    One date.<br>
+                    A thousand moments waiting to happen.
+                </p>
+
+                <button id="time-button">
+                    See how much time
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             PAGE 3 — LIVE TIME
+        ================================== -->
+
+        <section id="time-screen" class="screen">
+
+            <div class="time-glow"></div>
+
+            <div class="time-content">
+
+                <p class="time-top">
+                    AND THE CLOCK KEPT MOVING
+                </p>
+
+                <h2>
+                    Since that day...
+                </h2>
+
+                <div class="time-line"></div>
+
+
+                <!-- LIVE COUNTER -->
+
+                <div class="counter">
+
+                    <div class="counter-item">
+
+                        <span id="days">0</span>
+
+                        <small>
+                            Days
+                        </small>
+
+                    </div>
+
+
+                    <div class="counter-item">
+
+                        <span id="hours">00</span>
+
+                        <small>
+                            Hours
+                        </small>
+
+                    </div>
+
+
+                    <div class="counter-item">
+
+                        <span id="minutes">00</span>
+
+                        <small>
+                            Minutes
+                        </small>
+
+                    </div>
+
+
+                    <div class="counter-item">
+
+                        <span id="seconds">00</span>
+
+                        <small>
+                            Seconds
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <p class="time-bottom">
+                    Every second becomes part of the story.
+                </p>
+
+
+                <button id="story-button">
+                    Enter the story
+                    <span>→</span>
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             PAGE 4 — STORY
+        ================================== -->
+
+        <section id="story-screen" class="screen">
+
+            <div class="story-background"></div>
+
+            <div class="story-particles">
+
+                <span>✦</span>
+                <span>✧</span>
+                <span>·</span>
+                <span>✦</span>
+                <span>·</span>
+                <span>✧</span>
+
+            </div>
+
+
+            <!-- CHAPTER 1 -->
+
+            <div class="story-scene active">
+
+                <p class="chapter-number">
+                    CHAPTER 01
+                </p>
+
+                <h2>
+                    The Beginning
+                </h2>
+
+                <div class="story-divider"></div>
+
+                <p class="story-text">
+                    Every story has a beginning.
+                    <br><br>
+                    Ours has a date.
+                </p>
+
+                <button class="next-story">
+                    Continue
+                    <span>→</span>
+                </button>
+
+            </div>
+
+
+            <!-- CHAPTER 2 -->
+
+            <div class="story-scene">
+
+                <p class="chapter-number">
+                    CHAPTER 02
+                </p>
+
+                <h2>
+                    The Little Moments
+                </h2>
+
+                <p class="memory-intro">
+                    A few moments worth keeping...
+                </p>
+
+                <div class="story-divider"></div>
+
+                <div class="story-divider"></div>
+
+                <p class="story-text">
+                    Some moments look small
+                    <br>
+                    when they happen.
+                    <br><br>
+                    Somehow, they become
+                    <br>
+                    the ones we remember.
+                </p>
+
+                <div class="memory-gallery">
+
+                    <div class="memory-card memory-one">
+
+                        <div class="placeholder-image">
+                            <img src="images/memory1.jpeg" alt="Memory One">
+                        </div>
+
+                        <p class="memory-caption">
+                            A little moment worth remembering.
+                        </p>
+
+                    </div>
+
+
+                    <div class="memory-card memory-two">
+
+                        <div class="placeholder-image">
+                            <img src="images/memory2.jpeg" alt="Memory Two">
+                        </div>
+
+                        <p class="memory-caption">
+                            One of those moments that stays.
+                        </p>
+
+                    </div>
+
+
+                    <div class="memory-card memory-three">
+
+                        <div class="placeholder-image">
+                            <img src="images/memory3.jpeg" alt="Memory Three">
+                        </div>
+
+                        <p class="memory-caption">
+                            More memories coming soon.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <button class="next-story">
+                    Continue
+                    <span>→</span>
+                </button>
+
+            </div>
+
+
+            <!-- CHAPTER 3 -->
+
+            <div class="story-scene">
+
+                <p class="chapter-number">
+                    CHAPTER 03
+                </p>
+
+                <h2>
+                    Still Writing...
+                </h2>
+
+                <div class="story-divider"></div>
+
+                <p class="story-text">
+                    This isn't the end.
+                    <br><br>
+                    It's just another page
+                    <br>
+                    waiting to be written.
+                </p>
+
+                <div class="floating-heart">
+                    ♡
+                </div>
+
+                <button class="next-story">
+                    One More Thing
+                    <span>→</span>
+                </button>
+
+            </div>
+
+
+            <!-- SECRET -->
+
+            <div class="secret-scene">
+
+                <div class="lock-icon">
+                    🔐
+                </div>
+
+                <p class="secret-small">
+                    YOU FOUND SOMETHING HIDDEN
+                </p>
+
+                <h2>
+                    A little secret
+                </h2>
+
+                <p>
+                    Maybe there's something
+                    waiting to be unlocked.
+                </p>
+
+                <input type="text" id="secret-input" placeholder="Type the name..." autocomplete="off">
+
+                <button id="unlock-button">
+                    Unlock
+                </button>
+
+                <p id="secret-message"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             PAGE 5 — FINAL
+        ================================== -->
+
+        <section id="final-screen" class="screen">
+
+            <div class="final-glow"></div>
+
+            <div class="final-particles">
+
+                <span>✦</span>
+                <span>✧</span>
+                <span>✦</span>
+                <span>·</span>
+                <span>✧</span>
+                <span>✦</span>
+
+            </div>
+
+
+            <div class="final-content">
+
+                <p class="final-small">
+                    ONE LAST THING...
+                </p>
+
+                <div class="final-line"></div>
+
+                <h2>
+                    A story is made
+                    <br>
+                    of little moments.
+                </h2>
+
+                <p class="final-names">
+                    Shruthi
+                    <span>♡</span>
+                    Shannu
+                </p>
+
+                <p class="final-date">
+                    SINCE 16 • 09 • 2026
+                </p>
+
+                <div class="final-message">
+                    ✦
+                </div>
+
+                <p class="final-end">
+                    THE END... FOR NOW.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- MUSIC BUTTON -->
+
+        <button id="music-button">
+            ♪
+        </button>
+        <!-- =================================
+     MEMORY PREVIEW
+================================= -->
+
+        <div id="memory-preview">
+
+            <button id="close-memory">
+                ×
+            </button>
+
+            <div class="preview-content">
+
+                <div class="preview-placeholder">
+                    ✦
+                </div>
+
+                <p id="preview-title">
+                    A little memory
+                </p>
+
+                <p id="preview-caption">
+                    A moment worth keeping.
+                </p>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
